@@ -38,28 +38,18 @@ guidelines:
 * Consider leveraging automation tools to the maximum extent applicable for your
   project. You may already have unit tests, linting, and style checkers
   incorporated into your CI pipeline, or you might consider adding them if it's
-  beneficial for your use case. Suggestions for additional automated quality
-  checks that could improve your workflow are always worth considering.
+  beneficial for your use case. All these checks should have passed before you
+  ask for manual review.
+      * Suggestions for additional automated quality checks that could improve
+        your workflow are always worth considering.
 * The change shall be rebased on top of the latest master.
 * Structure your changes into a sensible number of descriptively-named commits.
   Interactive rebase can be a helpful tool in this process.
 * The recommended format is [conventional commits
   v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/). See examples given
   there.
-* Respond to comments promptly and push resolved issues to the server to keep
-  the review process flowing.
-
-# Reviewing a merge request
-
-* Begin reviewing as soon as possible. Respond promptly and approve the changes
-  once satisfied. Reviews should ideally be completed by the following work day. 
-* Refrain from nitpicking. Distinguish between blocking issues and suggestions
-  in your comments.
-* Understand the motivation for the change and ensure it fulfills the intended
-  purpose.
-* For larger changes, consider checking out the branch locally for a more
-  detailed examination.
-* Any modifications made to the branch should reset approvals. 
+* There shoudl be Defintion of Done document, that specifies what is expected
+  from the contribution.
 
 # Choosing a Reviewer 
 
@@ -77,6 +67,31 @@ reviewer:
 * For high-impact code changes, don't hesitate to involve multiple reviewers.
 * Avoid asking "anyone" to be the reviewer. It's better to specify who you want
   to review your code. 
+
+# During the Review
+
+## Reviewer's guidelines
+
+* Begin review as soon as possible. Respond promptly and approve the changes
+  once satisfied. Reviews should ideally be completed by the following work day. 
+* Refrain from nitpicking. Distinguish between blocking issues and suggestions
+  in your comments.
+* Understand the motivation for the change and ensure it fulfills the intended
+  purpose.
+* For larger changes, consider checking out the branch locally for a more
+  detailed examination.
+* Any modifications made to the branch should reset approvals. 
+
+## Submitter's guidelines
+
+* Respond to comments and push resolved issues to the server promptly to keep
+  the review process flowing.
+
+# Approving and merging the Merge Request
+
+* Once satisfied, reviewer shoudl explicitly approve the MR.
+* Original author of the MR should merge the change after all approvals,
+  he is in the position to know that all is ready to be merged.
 
 # Sources 
 
