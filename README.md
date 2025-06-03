@@ -40,9 +40,9 @@ guidelines:
   incorporated into your CI pipeline, or you might consider adding them if it's
   beneficial for your use case. All these checks should have passed before you
   ask for manual review.
-      * Suggestions for additional automated quality checks that could improve
-        your workflow are always worth considering.
-* The change shall be rebased on top of the latest master.
+    * Suggestions for additional automated quality checks that could improve
+      your workflow are always worth considering.
+* The change shall be rebased on top of the latest main/master branch.
 * Structure your changes into a sensible number of descriptively-named commits.
   Interactive rebase can be a helpful tool in this process.
 * The recommended format is [conventional commits
