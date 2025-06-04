@@ -48,8 +48,10 @@ guidelines:
 * The recommended format is [conventional commits
   v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/). See examples given
   there.
-* There shoudl be Defintion of Done document, that specifies what is expected
+* There shoudl be [Defintion of Done] document, that specifies what is expected
   from the contribution.
+
+[Defintion of Done]: definition-of-done.md
 
 # Choosing a Reviewer 
 
