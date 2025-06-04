@@ -104,8 +104,10 @@ Submitting small changes (10 - 100 lines max), describe the motivation for the
 change. Reviewer should be specific: comments that are a matter of opinion
 should be stating so. Approve explicitly. 
 
-Amazing Code Reviews: Creating a Superhero Collective • Alejandro Lujan • GOTO
-2019 The most important advice: KISS: Keep it small and simple (up to 200 lines,
+[Amazing Code Reviews: Creating a Superhero Collective • Alejandro Lujan • GOTO
+2019](https://www.youtube.com/watch?v=ly86Wq_E18o)
+
+The most important advice: KISS: Keep it small and simple (up to 200 lines,
 300 lines absolute maximum, working very hard to break it down). Use We in
 wording of suggestions. Offer positive feedback.
 
@@ -135,11 +137,13 @@ potential problem and what is just an opinion. Gatekeeping review vs. Early
 feedback review. Nitpicking is bad, tiny things should be automated. It should
 be clear what is expected from the reviewer. Submitter should be respectful to
 the reviewer: it should be described, tested, and small. Reviewers should then
-do review asap to show respect as well. Motivation: assure code keeps up to
+do review ASAP to show respect as well. Motivation: assure code keeps up to
 standard, find bugs (not so really useful), share knowledge (highly useful),
 make sure the code is useful, make sure the code solves the original problem.
 Avoid ping pong reviews! If the design is important, review it early! Make clear
-why, who, when and where. Follow up:
+why, who, when and where.
+
+Follow up:
 https://blog.jetbrains.com/upsource/2015/07/23/what-to-look-for-in-a-code-review/ 
 
 [Giving better code reviews, Joel
@@ -158,7 +162,10 @@ up to 30 minutes reviewing that diff and then have to do re-reviews when you
 make suggested changes. There’s definitely an inverse correlation between lines
 of code and review quality.” 
 
-Catarina Gralha, 9 challenges of managing PRs and how to solve them Excellent
+[Catarina Gralha, 9 challenges of managing PRs and how to solve
+them](https://blog.codacy.com/9-challenges-of-managing-prs-and-how-to-solve-them)
+
+Excellent
 article summarizing a lot of advice I got from asking more experienced
 colleagues and consulting sources above. 
 
